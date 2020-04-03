@@ -1,0 +1,161 @@
+@font-face {
+ font-family:nodu;
+ src: url(../nido/nido.eot);
+}
+@font-face {
+ font-family: nodu;
+ src: url(../nido/nido.ttf); /* TTF file for CSS3 browsers */
+}
+*{margin:0;padding:0;}
+.container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+strong{
+    color: #8888889c;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+h1{text-transform: capitalize;font-size: 28px;color: #333;margin: 12px 0px;}
+p{
+    color: #868686;
+    margin-bottom: 12px;
+}
+img{
+    width: 100%;
+    transition-duration: 0.4s;
+}
+img:hover{opacity: 0.6;}
+ body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    padding: 30px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+nav ul li a:hover{
+    opacity: 0.5;
+}
+
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+
+.blog-section{}
+.post-without-img{
+    padding: 80px;
+}
+.post-without-img a{
+    color: #8888889c;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.post-padd{
+    padding: 0px 50px;
+}
+
+.post-with-img{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.article-padd{
+	padding: 0px 70px;
+}
+article{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+article h1{font-size: 18px}
+article p{font-size: 14px}
+footer{
+    background: #efefef;
+    padding: 50px 0px;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    float: left;
+    list-style: none;
+}
+.footer-menu ul li a{color: #000;text-decoration:  none;display: block;padding-right: 20px;transition-duration: 0.4s;}
+.footer-menu ul li a:hover{
+    opacity: 0.5;
+}
+
+.social-link{
+    width: 50%;
+    float: left;
+}
+.social-link ul{
+    text-align: right;
+}
+.social-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-link ul li a{
+    color: #333;
+    display: block;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+.social-link ul li a:hover{
+    background: #333;
+    color: #efefef;
+}
+
+
+
+
+
+
